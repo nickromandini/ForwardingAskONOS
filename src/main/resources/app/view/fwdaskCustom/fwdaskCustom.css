@@ -1,0 +1,12 @@
+/* css for fwdask app custom view */
+
+#ov-fwdask-custom {
+    padding: 20px;
+}
+.light #ov-fwdask-custom {
+    color: navy;
+}
+.dark #ov-fwdask-custom {
+    color: #88f;
+}
+

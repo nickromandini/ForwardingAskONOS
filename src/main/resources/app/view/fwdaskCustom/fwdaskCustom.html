@@ -1,0 +1,18 @@
+<!-- partial HTML -->
+<div id="ov-fwdask-custom">
+
+    <div class="data-panel">
+		<h1 id="fwdaskTitle">Reactive Forwarding Ask</h1>
+		<p>
+			In the textarea below will be shown informations about packets to forward.
+		</p>
+    	<p>
+			Click Yes to install flow or No to block the packet.
+		</p>
+    	<textarea ng-style="textArea" readonly rows="15" cols="65">{{data.message}}</textarea>
+    	<br>
+    	<input type="button" ng-click="dOk()" value="Yes">
+    	<input type="button" ng-click="dCancel()" value="No">
+    </div>
+    
+</div>
